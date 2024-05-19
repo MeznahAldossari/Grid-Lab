@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1f 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1f 1fr 1fr 1fr; */
   background-color: aqua;
   height: 90vh;
 }
