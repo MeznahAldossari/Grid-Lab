@@ -1,0 +1,157 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1f 1fr 1fr 1fr;
+  background-color: aqua;
+  height: 90vh;
+}
+.item1 {
+  border: 2px solid red;
+  background-color: red;
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.item2 {
+  border: 2px solid yellow;
+  background-color: yellow;
+  grid-column: 3/5;
+}
+.item3 {
+  border: 2px solid green;
+  background-color: green;
+  grid-column: 5/6;
+}
+.item4 {
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  grid-column: 6/8;
+  grid-row: 1/3;
+}
+
+.item5 {
+  border: 2px solid peru;
+  background-color: peru;
+  grid-column: 8/10;
+}
+.item6 {
+  border: 2px solid powderblue;
+  background-color: powderblue;
+  grid-column: 10/11;
+}
+
+.item7 {
+  border: 2px solid rgb(198, 139, 198);
+  background-color: rgb(198, 139, 198);
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+
+.item8 {
+  border: 2px solid purple;
+  background-color: purple;
+  grid-row: 2/4;
+  grid-column: 3/4;
+}
+
+.item9 {
+  border: 2px solid palegreen;
+  background-color: palegreen;
+  grid-row: 2/4;
+  grid-column: 4/6;
+}
+.item10 {
+  border: 2px solid rgb(218, 145, 28);
+  background-color: rgb(218, 145, 28);
+  grid-row: 3/4;
+  grid-column: 6/8;
+}
+
+.item11 {
+  border: 2px solid rgb(19, 232, 161);
+  background-color: rgb(19, 232, 161);
+  grid-row: 2/4;
+  grid-column: 8/9;
+}
+
+.item12 {
+  border: 2px solid rgb(81, 120, 23);
+  background-color: rgb(81, 120, 23);
+  grid-row: 2/4;
+  grid-column: 9/11;
+}
+.item13 {
+  border: 2px solid rgb(233, 156, 31);
+  background-color: rgb(233, 156, 31);
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.item14 {
+  border: 2px solid rgb(34, 233, 31);
+  background-color: rgb(34, 233, 31);
+  grid-row: 4/5;
+  grid-column: 2/4;
+}
+
+.item15 {
+  border: 2px solid rgb(176, 31, 233);
+  background-color: rgb(176, 31, 233);
+  grid-row: 4/6;
+  grid-column: 4/6;
+}
+.item16 {
+  border: 2px solid rgb(85, 31, 233);
+  background-color: rgb(85, 31, 233);
+  grid-row: 4/5;
+  grid-column: 6/7;
+}
+.item17 {
+  border: 2px solid rgb(15, 179, 225);
+  background-color: rgb(15, 179, 225);
+  grid-row: 4/5;
+  grid-column: 7/9;
+}
+
+.item18 {
+  border: 2px solid rgb(11, 233, 181);
+  background-color: rgb(11, 233, 181);
+  grid-row: 4/6;
+  grid-column: 9/11;
+}
+.item19 {
+  border: 2px solid rgb(207, 233, 11);
+  background-color: rgb(207, 233, 11);
+  grid-row: 5/7;
+  grid-column: 1/3;
+}
+.item20 {
+  border: 2px solid rgb(243, 85, 6);
+  background-color: rgb(243, 85, 6);
+  grid-row: 5/7;
+  grid-column: 3/4;
+}
+
+.item21 {
+  border: 2px solid rgb(243, 6, 188);
+  background-color: rgb(243, 6, 188);
+  grid-row: 6/7;
+  grid-column: 4/6;
+}
+
+.item22 {
+  border: 2px solid rgb(81, 6, 243);
+  background-color: rgb(81, 6, 243);
+  grid-row: 5/7;
+  grid-column: 6/8;
+}
+.item23 {
+  border: 2px solid rgb(243, 6, 148);
+  background-color: rgb(243, 6, 148);
+  grid-row: 5/7;
+  grid-column: 8/9;
+}
+
+.item24 {
+  border: 2px solid rgb(243, 6, 22);
+  background-color: rgb(243, 6, 22);
+  grid-row: 6/7;
+  grid-column: 9/11;
+}
